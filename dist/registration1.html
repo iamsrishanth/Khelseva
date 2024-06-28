@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, width=device-width">
+
+    <link rel="stylesheet" href="/achievements.689f5f05.css">
+    <link rel="stylesheet" href="/registration1.6f923007.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unica One:wght@400&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,700;0,800;1,300&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap">
+  </head>
+  <body>
+    <div class="registration1">
+      <img class="khelseva-3-2" loading="lazy" alt="" src="/khelseva-3-2@2x.fab2ed0e.png" id="kHELSEVA32">
+      <main class="container">
+        <form class="form-container">
+          <div class="form-content">
+            <h1 class="form-title">Fill in your details</h1>
+            <div class="form-fields">
+              <div class="form-row">
+                <div class="form-column">
+                  <div class="form-group">
+                    <label for="state" class="form-label">State</label>
+                    <input id="state" type="text" class="form-input" placeholder="State">
+                  </div>
+                  <div class="form-group">
+                    <label for="city" class="form-label">City/Mandal/District</label>
+                    <input id="city" type="text" class="form-input" placeholder="Enter your city/mandal/district">
+                  </div>
+                  <div class="form-group">
+                    <label for="language" class="form-label">Language</label>
+                    <input id="language" type="text" class="form-input" placeholder="Enter your language">
+                  </div>
+                </div>
+                <div class="form-column">
+                  <div class="form-group">
+                    <label for="weight" class="form-label">Weight</label>
+                    <input id="weight" type="text" class="form-input" placeholder="Enter your weight">
+                  </div>
+                  <div class="form-group">
+                    <label for="height" class="form-label">Height (in cm)</label>
+                    <input id="height" type="number" class="form-input">
+                  </div>
+                  <div class="form-group">
+                    <label for="medical" class="form-label">Medical Conditions (if any)</label>
+                    <textarea id="medical" class="form-input"></textarea>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h2 class="sport-title">Pick Your Sport!</h2>
+            <select name="Sport" class="sport-select" required="">
+              <option value="">Select a sport</option>
+              <option value="Basketball">Basketball</option>
+              <option value="Football">Football</option>
+              <option value="Cricket">Cricket</option>
+              <option value="Volleyball">Volleyball</option>
+              <option value="Badminton">Badminton</option>
+            </select>
+            <div class="submit-button-wrapper">
+              <a href="/homepage.html" class="submit-button">
+                <div class="submit-text">Submit</div>
+              </a>
+            </div>0
+          </div>
+        </form>
+      </main>
+
+    <script>// Get the submit button element
+const submitButton = document.getElementById("submitButton");
+// Add an event listener for the click event
+submitButton.addEventListener("click", function(event) {
+    // Prevent default form submission
+    event.preventDefault();
+    // Check if at least one sport is selected
+    if (document.querySelector('input[name="sport"]:checked')) // If a sport is selected, redirect to the homepage
+    window.location.href = "./homepage.html";
+    else // If no sport is selected, show an alert message
+    alert("Please select at least one sport.");
+});
+var kHELSEVA32 = document.getElementById("kHELSEVA32");
+if (kHELSEVA32) kHELSEVA32.addEventListener("click", function(e) {
+    window.location.href = "./landing-page.html";
+});
+
+</script>
+  </div><script src="/registration1.e18fadc7.js"></script></body>
+</html>

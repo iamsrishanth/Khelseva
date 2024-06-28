@@ -1,0 +1,698 @@
+.content-child {
+  background-color: var(--color-white);
+  width: 1280px;
+  max-width: 100%;
+  height: 135px;
+  display: none;
+  position: relative;
+}
+
+.khelseva-removebg-preview-1-icon1 {
+  object-fit: cover;
+  width: 105px;
+  height: 110px;
+  position: relative;
+}
+
+.khelseva1 {
+  color: inherit;
+  text-decoration: none;
+  position: relative;
+}
+
+.brand, .khelseva-logo {
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.brand {
+  padding: var(--padding-11xl) 0 0;
+  flex-direction: column;
+}
+
+.khelseva-logo {
+  gap: var(--gap-9xs);
+  flex-direction: row;
+}
+
+.register {
+  color: inherit;
+  cursor: pointer;
+  min-width: 115px;
+  font-weight: 500;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+}
+
+.actions {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 5.5px 0 0;
+  display: flex;
+}
+
+.divider {
+  border-radius: var(--br-4xs);
+  background-color: var(--color-orangered-200);
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.log-in1 {
+  font-size: var(--font-size-7xl);
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  text-align: center;
+  white-space: nowrap;
+  min-width: 77px;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+}
+
+.log-in {
+  z-index: 1;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+  position: absolute;
+  top: 6px;
+  left: 29px;
+}
+
+.divider-parent {
+  cursor: pointer;
+  background-color: #0000;
+  border: 0;
+  flex: 1;
+  height: 53px;
+  padding: 0;
+  position: relative;
+}
+
+.login {
+  justify-content: flex-start;
+  align-self: stretch;
+  gap: var(--gap-7xl);
+  flex-direction: row;
+}
+
+.auth, .content, .login, .main, .nagivation {
+  align-items: flex-start;
+  display: flex;
+}
+
+.auth {
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-9xl);
+  color: var(--color-orangered-200);
+  font-family: var(--font-poppins);
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 274px;
+  padding: 28.5px 0 0;
+}
+
+.content, .main, .nagivation {
+  flex-direction: row;
+  max-width: 100%;
+}
+
+.nagivation {
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  z-index: 1;
+  width: 1143px;
+}
+
+.content, .main {
+  box-sizing: border-box;
+  justify-content: flex-start;
+}
+
+.content {
+  background-color: var(--color-white);
+  padding: var(--padding-xs) var(--padding-25xl) var(--padding-smi);
+  text-align: left;
+  font-size: var(--font-size-23xl);
+  color: var(--color-black);
+  font-family: var(--font-unica-one);
+  flex: 1;
+}
+
+.main {
+  padding: 0 0 var(--padding-7xs);
+  align-self: stretch;
+}
+
+.khelseva-6-1 {
+  object-fit: cover;
+  flex-shrink: 0;
+  width: 1920px;
+  max-width: 150%;
+  max-height: 100%;
+  margin-right: -187px;
+  position: relative;
+}
+
+.about-us {
+  font-size: inherit;
+  margin: 0;
+  font-family: inherit;
+  font-weight: 400;
+  position: relative;
+}
+
+.is-a-groundbreaking {
+  color: var(--color-white);
+  font-weight: 500;
+}
+
+.khelseva-is-a-container {
+  font-size: var(--font-size-9xl);
+  text-align: left;
+  align-self: stretch;
+  margin: 0;
+  font-family: inherit;
+  position: relative;
+}
+
+.description {
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: var(--gap-15xl);
+  text-align: center;
+  flex-direction: column;
+  width: 1105px;
+  max-width: 100%;
+  display: flex;
+}
+
+.find-us-on {
+  font-size: inherit;
+  flex: 1 0;
+  max-width: 100%;
+  margin: 0;
+  font-family: inherit;
+  font-weight: 400;
+  display: inline-block;
+  position: relative;
+}
+
+.socials-icon {
+  width: 444px;
+  height: 66.5px;
+  position: absolute;
+  bottom: 0;
+  right: -60.1px;
+  margin: 0 !important;
+}
+
+.find {
+  box-sizing: border-box;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: var(--gap-smi);
+  flex-direction: row;
+  flex-shrink: 0;
+  width: 383.9px;
+  max-width: 100%;
+  padding: 0 0 79.5px;
+  display: flex;
+  position: relative;
+}
+
+.contact-us, .message-24-outline {
+  position: absolute;
+  left: 0;
+  margin: 0 !important;
+}
+
+.contact-us {
+  font-size: inherit;
+  width: 387px;
+  font-family: inherit;
+  font-weight: 400;
+  display: inline-block;
+  top: 5px;
+}
+
+.message-24-outline {
+  flex-shrink: 0;
+  width: 61px;
+  height: 61px;
+  top: 103px;
+  overflow: hidden;
+}
+
+.khelsevagmailcom {
+  font-size: var(--font-size-6xl);
+  color: var(--color-white);
+  white-space: nowrap;
+  flex: 1;
+  position: absolute;
+  top: 126px;
+  left: 68px;
+  margin: 0 !important;
+}
+
+.contact-info {
+  padding: var(--padding-8xs) 0 0;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+  justify-content: flex-start;
+  align-items: flex-end;
+  gap: 0 5px;
+  width: 423.4px;
+  height: 164px;
+  position: relative;
+}
+
+.contact-info, .contact1, .details {
+  flex-direction: row;
+  max-width: 100%;
+  display: flex;
+}
+
+.details {
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: var(--gap-xl);
+  flex: 1;
+}
+
+.contact1 {
+  padding: 0 0 var(--padding-7xs) var(--padding-2xs);
+  box-sizing: border-box;
+  justify-content: flex-start;
+  align-self: stretch;
+  align-items: flex-start;
+}
+
+.sports1 {
+  font-size: var(--font-size-11xl);
+  align-self: stretch;
+  margin: 0;
+  font-family: inherit;
+  font-weight: 700;
+  position: relative;
+}
+
+.football1 {
+  width: 116.7px;
+  display: inline-block;
+  position: relative;
+}
+
+.badminton1, .basketball1, .cricket1, .volleyball1 {
+  width: 182.3px;
+  display: inline-block;
+  position: relative;
+}
+
+.badminton1, .basketball1, .volleyball1 {
+  width: 133.4px;
+}
+
+.badminton1, .basketball1 {
+  width: 139px;
+}
+
+.badminton1 {
+  width: 124.5px;
+}
+
+.sports-list {
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: var(--gap-base-4);
+  flex-direction: column;
+  flex-shrink: 0;
+  width: 199px;
+  display: flex;
+}
+
+.user1 {
+  font-size: inherit;
+  width: 77.8px;
+  min-width: 77.8px;
+  margin: 0;
+  font-family: inherit;
+  font-weight: 700;
+}
+
+.sign-in1, .sign-up1, .user1 {
+  display: inline-block;
+  position: relative;
+}
+
+.sign-in1 {
+  color: inherit;
+  min-width: 70px;
+  text-decoration: none;
+}
+
+.sign-up1 {
+  white-space: nowrap;
+  min-width: 78.9px;
+}
+
+.email-verification2, .forgot-password2 {
+  align-self: stretch;
+  position: relative;
+}
+
+.forgot-password2 {
+  line-height: 24.9px;
+}
+
+.auth-options1, .user-actions {
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.auth-options1 {
+  gap: var(--gap-4xs-8);
+  flex-direction: column;
+  flex: 1;
+}
+
+.user-actions {
+  padding: 0 0 0 var(--padding-7xs);
+  text-align: left;
+  font-size: var(--font-size-lgi);
+  flex-direction: row;
+  align-self: stretch;
+}
+
+.password1, .user-group {
+  font-size: var(--font-size-11xl);
+}
+
+.user-group {
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: var(--gap-smi-8);
+  text-align: center;
+  flex-direction: column;
+  flex-shrink: 0;
+  width: 186px;
+  display: flex;
+}
+
+.password1 {
+  width: 170.6px;
+  margin: 0;
+  font-family: inherit;
+  font-weight: 700;
+  display: inline-block;
+  position: relative;
+}
+
+.sign-in-partner1 {
+  flex: 1;
+  position: relative;
+}
+
+.partner {
+  padding: 0 0 var(--padding-10xs);
+  box-sizing: border-box;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 157px;
+  display: flex;
+}
+
+.sign-up-partner1 {
+  flex: 1 0;
+  position: relative;
+}
+
+.sign-up2 {
+  padding: 0 0 var(--padding-10xs);
+  box-sizing: border-box;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 166.1px;
+  display: flex;
+}
+
+.email-verification4 {
+  flex: 1;
+  position: relative;
+}
+
+.email-verification3 {
+  padding: 0 0 var(--padding-10xs);
+  flex-direction: row;
+  justify-content: flex-start;
+  align-self: stretch;
+  align-items: flex-start;
+  display: flex;
+}
+
+.forgot-password3 {
+  align-self: stretch;
+  position: relative;
+}
+
+.account {
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: var(--gap-xs);
+  flex-direction: column;
+  flex-shrink: 0;
+  width: 183px;
+  display: flex;
+}
+
+.company1 {
+  font-size: var(--font-size-11xl);
+  margin: 0;
+  font-family: inherit;
+  font-weight: 700;
+}
+
+.about-khelseva1, .company1 {
+  position: relative;
+}
+
+.about-khelseva-container {
+  padding: 0 0 var(--padding-10xs);
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.blog1 {
+  min-width: 42px;
+  display: inline-block;
+  position: relative;
+}
+
+.blog-container {
+  padding: 0 0 var(--padding-10xs);
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.faq1 {
+  min-width: 38px;
+  display: inline-block;
+  position: relative;
+}
+
+.faq-container {
+  padding: 0 0 var(--padding-10xs);
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.contact2 {
+  min-width: 78px;
+  display: inline-block;
+  position: relative;
+}
+
+.account1 {
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: var(--gap-xs);
+  flex-direction: column;
+  display: flex;
+}
+
+.policy1 {
+  font-size: var(--font-size-11xl);
+  min-width: 96.6px;
+  margin: 0;
+  font-family: inherit;
+  font-weight: 700;
+  display: inline-block;
+  position: relative;
+}
+
+.privacy-policy1 {
+  color: inherit;
+  text-decoration: none;
+}
+
+.disclamer1, .privacy-policy1, .terms-of-service1 {
+  position: relative;
+}
+
+.disclamer1 {
+  min-width: 99.7px;
+  display: inline-block;
+}
+
+.policy-list {
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: var(--gap-base-7);
+  flex-direction: column;
+  display: flex;
+}
+
+.last1 {
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-lgi);
+  color: var(--color-white);
+  flex-direction: row;
+  width: 1188px;
+  overflow-x: auto;
+}
+
+.about, .footer, .last1 {
+  align-items: flex-start;
+  max-width: 100%;
+  display: flex;
+}
+
+.about {
+  flex-direction: column;
+  flex: 1;
+  justify-content: flex-start;
+  gap: 87px;
+}
+
+.footer {
+  padding: 0 var(--padding-xl) var(--padding-37xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-36xl);
+  color: var(--color-orangered-300);
+  font-family: var(--font-poppins);
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 1251px;
+}
+
+.background {
+  background-color: var(--color-white);
+  align-self: stretch;
+  height: 59px;
+  position: relative;
+}
+
+.landing-page {
+  background-color: var(--color-black);
+  letter-spacing: normal;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  width: 100%;
+  line-height: normal;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (width <= 1200px) {
+  .content {
+    padding-left: var(--padding-3xl);
+    padding-right: var(--padding-3xl);
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (width <= 1050px) {
+  .about-us, .contact-us, .find-us-on {
+    font-size: var(--font-size-25xl);
+  }
+
+  .details {
+    flex-wrap: wrap;
+  }
+
+  .company1, .password1, .policy1, .sports1, .user1 {
+    font-size: var(--font-size-5xl);
+  }
+
+  .footer {
+    box-sizing: border-box;
+    padding-bottom: 36px;
+  }
+}
+
+@media screen and (width <= 750px) {
+  .description {
+    gap: var(--gap-mid);
+  }
+
+  .about {
+    gap: var(--gap-24xl);
+  }
+
+  .footer {
+    padding-bottom: var(--padding-4xl);
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (width <= 450px) {
+  .about-us {
+    font-size: var(--font-size-14xl);
+  }
+
+  .khelseva-is-a-container {
+    font-size: var(--font-size-3xl);
+  }
+
+  .contact-us, .find-us-on {
+    font-size: var(--font-size-14xl);
+  }
+
+  .khelsevagmailcom {
+    font-size: var(--font-size-xl);
+  }
+
+  .company1, .password1, .policy1, .sports1, .user1 {
+    font-size: var(--font-size-lg);
+  }
+
+  .about {
+    gap: var(--gap-3xl);
+  }
+}
+/*# sourceMappingURL=index.9e4c6fd2.css.map */

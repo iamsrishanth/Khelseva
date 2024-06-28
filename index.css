@@ -1,0 +1,641 @@
+.content-child {
+  height: 135px;
+  width: 1280px;
+  position: relative;
+  background-color: var(--color-white);
+  display: none;
+  max-width: 100%;
+}
+.khelseva-removebg-preview-1-icon1 {
+  height: 110px;
+  width: 105px;
+  position: relative;
+  object-fit: cover;
+}
+.khelseva1 {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+}
+.brand,
+.khelseva-logo {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.brand {
+  flex-direction: column;
+  padding: var(--padding-11xl) 0 0;
+}
+.khelseva-logo {
+  flex-direction: row;
+  gap: var(--gap-9xs);
+}
+.register {
+  text-decoration: none;
+  position: relative;
+  font-weight: 500;
+  color: inherit;
+  display: inline-block;
+  min-width: 115px;
+  cursor: pointer;
+}
+.actions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 5.5px 0 0;
+}
+.divider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-4xs);
+  background-color: var(--color-orangered-200);
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.log-in1 {
+  text-decoration: none;
+  position: relative;
+  font-size: var(--font-size-7xl);
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+  min-width: 77px;
+  white-space: nowrap;
+}
+.log-in {
+  position: absolute;
+  top: 6px;
+  left: 29px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.divider-parent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 53px;
+  flex: 1;
+  position: relative;
+}
+.login {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-7xl);
+}
+.auth,
+.content,
+.login,
+.main,
+.nagivation {
+  display: flex;
+  align-items: flex-start;
+}
+.auth {
+  width: 274px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 28.5px 0 0;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-9xl);
+  color: var(--color-orangered-200);
+  font-family: var(--font-poppins);
+}
+.content,
+.main,
+.nagivation {
+  flex-direction: row;
+  max-width: 100%;
+}
+.nagivation {
+  width: 1143px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.content,
+.main {
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.content {
+  flex: 1;
+  background-color: var(--color-white);
+  padding: var(--padding-xs) var(--padding-25xl) var(--padding-smi);
+  text-align: left;
+  font-size: var(--font-size-23xl);
+  color: var(--color-black);
+  font-family: var(--font-unica-one);
+}
+.main {
+  align-self: stretch;
+  padding: 0 0 var(--padding-7xs);
+}
+.khelseva-6-1 {
+  margin-right: -187px;
+  width: 1920px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 150%;
+  flex-shrink: 0;
+}
+.about-us {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.is-a-groundbreaking {
+  font-weight: 500;
+  color: var(--color-white);
+}
+.khelseva-is-a-container {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-9xl);
+  text-align: left;
+  font-family: inherit;
+}
+.description {
+  width: 1105px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-15xl);
+  max-width: 100%;
+  text-align: center;
+}
+.find-us-on {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.socials-icon {
+  height: 66.5px;
+  width: 444px;
+  position: absolute;
+  margin: 0 !important;
+  right: -60.1px;
+  bottom: 0;
+}
+.find {
+  width: 383.9px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 79.5px;
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-smi);
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.contact-us,
+.message-24-outline {
+  position: absolute;
+  margin: 0 !important;
+  left: 0;
+}
+.contact-us {
+  width: 387px;
+  top: 5px;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+}
+.message-24-outline {
+  height: 61px;
+  width: 61px;
+  top: 103px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.khelsevagmailcom {
+  flex: 1;
+  position: absolute;
+  margin: 0 !important;
+  top: 126px;
+  left: 68px;
+  font-size: var(--font-size-6xl);
+  color: var(--color-white);
+  white-space: nowrap;
+}
+.contact-info {
+  height: 164px;
+  width: 423.4px;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+  box-sizing: border-box;
+  position: relative;
+  gap: 0 5px;
+  flex-shrink: 0;
+}
+.contact-info,
+.contact1,
+.details {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.details {
+  flex: 1;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.contact1 {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-7xs) var(--padding-2xs);
+  box-sizing: border-box;
+}
+.sports1 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-11xl);
+  font-weight: 700;
+  font-family: inherit;
+}
+.football1 {
+  width: 116.7px;
+  position: relative;
+  display: inline-block;
+}
+.badminton1,
+.basketball1,
+.cricket1,
+.volleyball1 {
+  width: 182.3px;
+  position: relative;
+  display: inline-block;
+}
+.badminton1,
+.basketball1,
+.volleyball1 {
+  width: 133.4px;
+}
+.badminton1,
+.basketball1 {
+  width: 139px;
+}
+.badminton1 {
+  width: 124.5px;
+}
+.sports-list {
+  width: 199px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base-4);
+}
+.user1 {
+  margin: 0;
+  width: 77.8px;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  min-width: 77.8px;
+}
+.sign-in1,
+.sign-up1,
+.user1 {
+  position: relative;
+  display: inline-block;
+}
+.sign-in1 {
+  text-decoration: none;
+  color: inherit;
+  min-width: 70px;
+}
+.sign-up1 {
+  min-width: 78.9px;
+  white-space: nowrap;
+}
+.email-verification2,
+.forgot-password2 {
+  align-self: stretch;
+  position: relative;
+}
+.forgot-password2 {
+  line-height: 24.9px;
+}
+.auth-options1,
+.user-actions {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.auth-options1 {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-4xs-8);
+}
+.user-actions {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-7xs);
+  text-align: left;
+  font-size: var(--font-size-lgi);
+}
+.password1,
+.user-group {
+  font-size: var(--font-size-11xl);
+}
+.user-group {
+  width: 186px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-smi-8);
+  text-align: center;
+}
+.password1 {
+  margin: 0;
+  width: 170.6px;
+  position: relative;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+}
+.sign-in-partner1 {
+  flex: 1;
+  position: relative;
+}
+.partner {
+  width: 157px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-10xs);
+  box-sizing: border-box;
+}
+.sign-up-partner1 {
+  flex: 1;
+  position: relative;
+  flex-shrink: 0;
+}
+.sign-up2 {
+  width: 166.1px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-10xs);
+  box-sizing: border-box;
+}
+.email-verification4 {
+  flex: 1;
+  position: relative;
+}
+.email-verification3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-10xs);
+}
+.forgot-password3 {
+  align-self: stretch;
+  position: relative;
+}
+.account {
+  width: 183px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.company1 {
+  margin: 0;
+  font-size: var(--font-size-11xl);
+  font-weight: 700;
+  font-family: inherit;
+}
+.about-khelseva1,
+.company1 {
+  position: relative;
+}
+.about-khelseva-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-10xs);
+}
+.blog1 {
+  position: relative;
+  display: inline-block;
+  min-width: 42px;
+}
+.blog-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-10xs);
+}
+.faq1 {
+  position: relative;
+  display: inline-block;
+  min-width: 38px;
+}
+.faq-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-10xs);
+}
+.contact2 {
+  position: relative;
+  display: inline-block;
+  min-width: 78px;
+}
+.account1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.policy1 {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-11xl);
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 96.6px;
+}
+.privacy-policy1 {
+  text-decoration: none;
+  color: inherit;
+}
+.disclamer1,
+.privacy-policy1,
+.terms-of-service1 {
+  position: relative;
+}
+.disclamer1 {
+  display: inline-block;
+  min-width: 99.7px;
+}
+.policy-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base-7);
+}
+.last1 {
+  width: 1188px;
+  overflow-x: auto;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-lgi);
+  color: var(--color-white);
+}
+.about,
+.footer,
+.last1 {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.about {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 87px;
+}
+.footer {
+  width: 1251px;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-xl) var(--padding-37xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-36xl);
+  color: var(--color-orangered-300);
+  font-family: var(--font-poppins);
+}
+.background {
+  align-self: stretch;
+  height: 59px;
+  position: relative;
+  background-color: var(--color-white);
+}
+.landing-page {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-black);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .content {
+    padding-left: var(--padding-3xl);
+    padding-right: var(--padding-3xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .about-us,
+  .contact-us,
+  .find-us-on {
+    font-size: var(--font-size-25xl);
+  }
+  .details {
+    flex-wrap: wrap;
+  }
+  .company1,
+  .password1,
+  .policy1,
+  .sports1,
+  .user1 {
+    font-size: var(--font-size-5xl);
+  }
+  .footer {
+    padding-bottom: 36px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .description {
+    gap: var(--gap-mid);
+  }
+  .about {
+    gap: var(--gap-24xl);
+  }
+  .footer {
+    padding-bottom: var(--padding-4xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .about-us {
+    font-size: var(--font-size-14xl);
+  }
+  .khelseva-is-a-container {
+    font-size: var(--font-size-3xl);
+  }
+  .contact-us,
+  .find-us-on {
+    font-size: var(--font-size-14xl);
+  }
+  .khelsevagmailcom {
+    font-size: var(--font-size-xl);
+  }
+  .company1,
+  .password1,
+  .policy1,
+  .sports1,
+  .user1 {
+    font-size: var(--font-size-lg);
+  }
+  .about {
+    gap: var(--gap-3xl);
+  }
+}

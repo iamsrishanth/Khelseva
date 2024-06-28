@@ -1,0 +1,146 @@
+/* profile.css */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header Styling */
+header {
+  background-color: #fff;
+  padding: 20px 0;
+  position: fixed;
+  width: 100%;
+  z-index: 100; 
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #000;
+  font-family: 'Unica One', cursive;
+  font-size: 24px;
+}
+
+.logo img {
+  height: 60px;
+  margin-right: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin-left: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+nav a.active,
+nav a:hover {
+  color: #F05454; 
+}
+
+/* Main Content Styling */
+main {
+  padding-top: 80px; 
+  min-height: calc(100vh - 120px);
+}
+
+/* Profile Section Styling */
+.profile-section {
+  padding: 40px 0;
+}
+
+.profile-section h2 {
+  color: #fff;
+  margin-bottom: 30px;
+  display: flex; /* Allow for inline-block edit button */
+  align-items: center;
+}
+
+.edit-profile {
+  margin-left: 20px;
+  display: inline-block; /* Make the edit button inline */
+}
+
+.edit-profile img {
+  width: 30px;
+  height: 30px;
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+}
+
+.edit-profile:hover img {
+  opacity: 1;
+}
+
+.profile-content {
+  display: flex;
+  align-items: flex-start;
+  background-color: #111;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.profile-picture {
+  width: 250px;
+  margin-right: 30px;
+}
+
+.profile-picture img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.profile-info {
+  flex: 1;
+}
+
+.info-group {
+  margin-bottom: 20px;
+}
+
+.info-group p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.info-group strong {
+  color: #F05454;
+}
+
+/* Footer Styling */
+footer {
+  background-color: #111;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 40px;
+}

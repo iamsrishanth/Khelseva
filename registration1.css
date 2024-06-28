@@ -1,0 +1,194 @@
+.khelseva-3-2 {
+  width: 317.6px;
+  height: 110px;
+  position: relative;
+  object-fit: contain;
+  cursor: pointer;
+}
+.form-container {
+  border: 7px solid #ff5108;
+  background-color: #000;
+  align-self: center;
+  display: flex;
+  margin-top: 86px;
+  width: 100%;
+  max-width: 1726px;
+  align-items: center;
+  justify-content: center;
+  padding: 78px 60px;
+}
+
+@media (max-width: 991px) {
+  .form-container {
+    max-width: 100%;
+    margin-top: 40px;
+    padding: 0 20px;
+  }
+}
+
+.form-content {
+  display: flex;
+  margin-bottom: 11px;
+  width: 100%;
+  max-width: 1497px;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 991px) {
+  .form-content {
+    max-width: 100%;
+  }
+}
+
+.form-title {
+  color: #ff5108;
+  font: 600 64px Poppins, sans-serif;
+}
+
+@media (max-width: 991px) {
+  .form-title {
+    max-width: 100%;
+    font-size: 40px;
+  }
+}
+
+.form-fields {
+  align-self: stretch;
+  margin-top: 58px;
+}
+
+@media (max-width: 991px) {
+  .form-fields {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+}
+
+.form-row {
+  gap: 20px;
+  display: flex;
+}
+
+@media (max-width: 991px) {
+  .form-row {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+  }
+}
+
+.form-column {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 50%;
+  margin-left: 0;
+}
+
+@media (max-width: 991px) {
+  .form-column {
+    width: 100%;
+  }
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  letter-spacing: 0.4px;
+}
+
+@media (max-width: 991px) {
+  .form-group {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+}
+
+.form-label {
+  color: #fff0f0;
+  font: 500 31px Poppins, sans-serif;
+}
+
+@media (max-width: 991px) {
+  .form-label {
+    max-width: 100%;
+  }
+}
+
+.form-input {
+  align-items: start;
+  border-radius: 8px;
+  border: 3px solid #fff;
+  background-color: #fff;
+  margin-top: 8px;
+  color: rgba(0, 0, 0, 0.94);
+  padding: 8px 8px 8px 16px;
+  font: 400 14px Poppins, sans-serif;
+}
+
+@media (max-width: 991px) {
+  .form-input {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+}
+
+.sport-title {
+  color: #ff5108;
+  margin-top: 64px;
+  font: 600 64px Poppins, sans-serif;
+}
+
+@media (max-width: 991px) {
+  .sport-title {
+    max-width: 100%;
+    margin-top: 40px;
+    font-size: 40px;
+  }
+}
+
+.sport-select {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-top: 20px;
+  align-self: center;
+  width: 50%;
+  height: 50px;
+  flex-grow: 1;
+  font-size: 40px;
+}
+
+.submit-button {
+  border-radius: 35px;
+  background-color: #ff5108;
+  margin-top: 68px;
+  width: 455px;
+  max-width: 100%;
+  color: #000;
+  text-align: center;
+  padding: 20px 60px;
+  font: 600 69px Poppins, sans-serif;
+  text-decoration: none;
+  display: inline-block;
+}
+
+@media (max-width: 991px) {
+  .submit-button {
+    font-size: 40px;
+    margin-top: 40px;
+    padding: 0 20px;
+  }
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}

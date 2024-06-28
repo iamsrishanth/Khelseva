@@ -1,0 +1,313 @@
+<style>
+    .register-container {
+      background-color: #000;
+      display: flex;
+      padding: 12px 0 80px;
+      flex-direction: column;
+      min-height: 1732px;
+      width: 100%;
+      overflow: hidden;
+      position: relative;
+    }
+    
+    .background-image {
+      position: absolute;
+      inset: 0;
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+    
+    .header {
+      position: relative;
+      background-color: #fff;
+      z-index: 10;
+      display: flex;
+      margin-top: -12px;
+      gap: 4px;
+      font-size: 42px;
+      color: #000;
+      font-weight: 400;
+      white-space: nowrap;
+      padding: 13px 40px;
+    }
+    
+    .logo {
+      aspect-ratio: 0.95;
+      object-fit: auto;
+      object-position: center;
+      width: 105px;
+      max-width: 100%;
+    }
+    
+    .brand-name {
+      font-family: Unica One, sans-serif;
+      flex-grow: 1;
+      flex-basis: auto;
+      margin: auto 0;
+    }
+    
+    .main-content {
+      position: relative;
+      border: 7px solid rgba(255, 81, 8, 1);
+      background-color: #000;
+      align-self: center;
+      display: flex;
+      width: 100%;
+      max-width: 1726px;
+      align-items: center;
+      justify-content: center;
+      margin: 24px 0 48px;
+      padding: 80px 60px;
+    }
+    
+    .form-container {
+      display: flex;
+      width: 100%;
+      max-width: 1474px;
+      flex-direction: column;
+      margin: 14px 0 34px;
+    }
+    
+    .form-title {
+      color: #fff;
+      margin: 0 94px 0 79px;
+      font: 600 64px Poppins, sans-serif;
+    }
+    
+    .form-fields {
+      margin-top: 77px;
+    }
+    
+    .form-row {
+      gap: 20px;
+      display: flex;
+    }
+    
+    .form-column {
+      display: flex;
+      flex-direction: column;
+      line-height: normal;
+      width: 50%;
+      margin-left: 0;
+    }
+    
+    .form-group {
+      display: flex;
+      flex-grow: 1;
+      flex-direction: column;
+      letter-spacing: 0.4px;
+    }
+    
+    .form-label {
+      color: #fff0f0;
+      font: 500 31px Poppins, sans-serif;
+    }
+    
+    .form-input {
+      align-items: start;
+      border-radius: 8px;
+      border: 3px solid #fff;
+      background-color: #fff;
+      margin-top: 8px;
+      color: rgba(0, 0, 0, 0.94);
+      padding: 8px 8px 8px 16px;
+      font: 400 14px Poppins, sans-serif;
+    }
+    
+    .terms-container {
+      align-self: start;
+      display: flex;
+      gap: 19px;
+      font-size: 37px;
+      color: #ff5108;
+      font-weight: 400;
+      line-height: 24px;
+      margin: 63px 0 0 17px;
+    }
+    
+    .terms-checkbox {
+      background-color: #d9d9d9;
+      align-self: start;
+      width: 38px;
+      height: 38px;
+    }
+    
+    .terms-text {
+      font-family: Inter, sans-serif;
+      flex-grow: 1;
+      flex-basis: auto;
+    }
+    
+    .submit-button {
+      border-radius: 14px;
+      background-color: #ff5108;
+      align-self: center;
+      z-index: 10;
+      width: 528px;
+      max-width: 100%;
+      height: 72px;
+      cursor: pointer;
+      display: flex;
+      margin: 34px 0 0 65px;
+      text-decoration: none;
+    }
+    
+    .submit-text {
+      color: #000;
+      align-self: center;
+      margin-top: -25px;
+      padding-top: 15px;
+      font: 600 64px Poppins, sans-serif;
+    }
+    
+    @media (max-width: 991px) {
+      .register-container {
+        max-width: 100%;
+      }
+    
+      .header {
+        flex-wrap: wrap;
+        white-space: initial;
+        padding: 0 20px;
+      }
+    
+      .brand-name {
+        max-width: 100%;
+      }
+    
+      .main-content {
+        max-width: 100%;
+        margin-bottom: 40px;
+        padding: 0 20px;
+      }
+    
+      .form-container {
+        max-width: 100%;
+      }
+    
+      .form-title {
+        max-width: 100%;
+        margin-right: 10px;
+        font-size: 40px;
+      }
+    
+      .form-fields {
+        max-width: 100%;
+        margin-top: 40px;
+      }
+    
+      .form-row {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0;
+      }
+    
+      .form-column {
+        width: 100%;
+      }
+    
+      .form-group {
+        max-width: 100%;
+        margin-top: 40px;
+      }
+    
+      .form-label {
+        max-width: 100%;
+      }
+    
+      .form-input {
+        max-width: 100%;
+        padding: 0 20px;
+      }
+    
+      .terms-container {
+        flex-wrap: wrap;
+        margin-top: 40px;
+      }
+    
+      .terms-text {
+        max-width: 100%;
+      }
+    
+      .submit-text {
+        max-width: 100%;
+        font-size: 40px;
+      }
+    }
+    
+    @media (max-width: 640px) {
+      .terms-text {
+        margin-bottom: 1px;
+      }
+    }
+    
+    .visually-hidden {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+    </style>
+    
+    <section class="register-container">
+      <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/a2be43fa4c7ba68faa5fa8aae498eb165ebc44af3295449d7611023b92491dd0?apiKey=65748834694b4d84baa4570f30e99b71&" alt="" class="background-image" />
+      <header class="header">
+        <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/19faefb023555af2d5621bfd28297ff9092bdb7db3500b9fc20f25e76117ac66?apiKey=65748834694b4d84baa4570f30e99b71&" alt="Khelseva Logo" class="logo" />
+        <h1 class="brand-name">KHELSEVA</h1>
+      </header>
+      <main class="main-content">
+        <form class="form-container">
+          <h2 class="form-title">Register to begin your journey with us</h2>
+          <div class="form-fields">
+            <div class="form-row">
+              <div class="form-column">
+                <div class="form-group">
+                  <label for="firstName" class="form-label">First Name</label>
+                  <input type="text" id="firstName" class="form-input" placeholder="First Name" required />
+                </div>
+                <div class="form-group">
+                  <label for="lastName" class="form-label">Last Name</label>
+                  <input type="text" id="lastName" class="form-input" placeholder="Last Name" required />
+                </div>
+                <div class="form-group">
+                  <label for="email" class="form-label">Email</label>
+                  <input type="email" id="email" class="form-input" placeholder="Email" required />
+                </div>
+              </div>
+              <div class="form-column">
+                <div class="form-group">
+                  <label for="mobileNumber" class="form-label">Mobile Number</label>
+                  <input type="tel" id="mobileNumber" class="form-input" placeholder="Mobile Number" required />
+                </div>
+                <div class="form-group">
+                  <label for="password" class="form-label">Create Password</label>
+                  <input type="password" id="password" class="form-input" required />
+                </div>
+                <div class="form-group">
+                  <label for="confirmPassword" class="form-label">Confirm Password</label>
+                  <input type="password" id="confirmPassword" class="form-input" placeholder="Confirm Password" required />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="terms-container">
+            <input type="checkbox" id="termsCheckbox" class="terms-checkbox" required />
+            <label for="termsCheckbox" class="terms-text">
+              Creating your account and you accepting <span style="font-weight: 600; color: rgb(255, 81, 8)">Terms &amp; Conditions</span>
+            </label>
+          </div>
+          <div class="submit-button-wrapper">
+            <a href="/registration1.html" class="submit-button">
+              <div class="submit-text">Submit</div>
+            </a>
+          </div>0
+        </form>
+      </main>
+    </section>
